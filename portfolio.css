@@ -57,8 +57,7 @@ body {
 }
 
 .firstglance .body {
-  position:fixed;
-  top:3rem;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
