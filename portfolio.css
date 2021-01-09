@@ -10,6 +10,7 @@
 body {
   background: #e6e6e6;
   overflow-x: hidden;
+  width: 100%;
 }
 .firstglance {
   height: 100vh;
