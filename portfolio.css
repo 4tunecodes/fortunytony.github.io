@@ -11,6 +11,9 @@ body {
   overflow-x: hidden;
   margin-right: 50px;
   background: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .firstglance {
   height: 100vh;
