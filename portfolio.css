@@ -4,12 +4,12 @@
   box-sizing: 0;
   cursor: pointer;
   scroll-behavior: smooth;
-  display:flex;
 }
 
 body {
   background: #e6e6e6;
   overflow-x: hidden;
+  margin-right: 50px;
 }
 .firstglance {
   height: 100vh;
