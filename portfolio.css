@@ -416,9 +416,6 @@ body {
 }
 
 @media (max-width: 860px) {
-  boody{
-    width: calc(100% - 70px);
-  }
   .firstglance .header{
     width: calc(100% - 30px);
   }
