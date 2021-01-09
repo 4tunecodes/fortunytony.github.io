@@ -10,6 +10,7 @@ body {
   background: #e6e6e6;
   overflow-x: hidden;
   margin-right: 50px;
+  background: pink;
 }
 .firstglance {
   height: 100vh;
@@ -56,6 +57,8 @@ body {
 }
 
 .firstglance .body {
+  position:fixed;
+  top:3rem;
   display: flex;
   justify-content: center;
   align-items: center;
