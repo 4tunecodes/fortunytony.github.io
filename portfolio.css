@@ -50,6 +50,7 @@ body {
   cursor: pointer;
   color: #f1f1f1;
   margin-left: 10px;
+  z-index:2000;
 }
 .firstglance .header .logo:hover {
   color: #ff7f50;
