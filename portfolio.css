@@ -480,10 +480,11 @@ body {
     display: flex;
     margin-top: 0;
     margin-left: 0;
+    margin-right: 0;
   }
   .card {
     margin-top: 0;
-    width: calc(100% - 50px);
+    width: 100%;
   }
   .fifthglance .contact-content {
     display: flex;
