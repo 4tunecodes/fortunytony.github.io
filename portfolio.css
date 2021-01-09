@@ -1,0 +1,500 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #e6e6e6;
+  overflow-x: hidden;
+}
+.firstglance {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  background-color: #262626;
+}
+
+.spacex {
+  width: 100px;
+  display: none;
+  margin-right: 3%;
+}
+
+.firstglance .header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  margin-left: 0;
+  background-color: #262626;
+}
+
+.firstglance .header .logo {
+  flex: 1;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #f1f1f1;
+  margin-left: 10px;
+}
+.firstglance .header .logo:hover {
+  color: #ff7f50;
+}
+
+.firstglance .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  height: calc(100vh - 3rem);
+  width: 100%;
+}
+
+.firstglance .header .content {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+}
+.fake-nav{
+  display: none;
+}
+.firstglance .header .content ul li .content-item {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.firstglance .header .content ul li:hover {
+  transform: scale(1.1);
+  border-bottom: 1px solid #ff7f50;
+}
+.firstglance .header .content > ul {
+  display: flex;
+}
+
+.firstglance .header .content ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+}
+.firstglance .body .body-content {
+  padding: 10px;
+  background-color: brown;
+  width: 400px;
+}
+.firstglance .body .body-content h1 {
+  font-size: 56px;
+  line-height: 70px;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.firstglance .body .body-content span {
+  text-transform: capitalize;
+  color: #ff7f50;
+}
+
+.firstglance .body .body-content .normal-text {
+  font-size: 10px;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 340px;
+}
+.firstglance .body .body-content button {
+  background-color: #ff7f50;
+  color: #f1f1f1;
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+.firstglance .body .body-content button:hover {
+  width: 170px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.aboutheader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  color: #e6e6e6;
+}
+
+.aboutheader .about-u {
+  color: #262626;
+  font-size: 35px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.abouttxtdiv {
+  display: inline;
+  color: #262626;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.abouthead {
+  margin-top: 100px;
+}
+.secondglance .hehe {
+  display: flex;
+  justify-content: space-between;
+}
+.secondglance .hehe h3 {
+  margin-top: 10px;
+}
+.secondglance .aboutimg {
+  width: 700px;
+  height: 90vh;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 30px;
+}
+#hamburger {
+  display: block;
+  transform: scale(1.5);
+}
+#new-hamburger {
+  display: none;
+  transform: scale(1.5);
+}
+#hamburger:hover,
+#new-hamburger:hover{
+  color: #ff7f50;
+  transform: scale(1.7);
+}
+.thirdglance,
+.fourthglance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.fourthglance #strong:hover {
+  color: #ff7f50;
+}
+.card {
+  position: relative;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2),
+    inset -3px -3px 13px rgba(255, 255, 255, 0.1),
+    3px 3px 3px rgba(0, 0, 0, 0.3), -3px -3px 13px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+}
+.card .box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+  background-image: url(walk.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.card .box:hover {
+  transform: translateY(-50px);
+}
+.card .box .boxcontent {
+  padding: 20px;
+  text-align: center;
+}
+.card .box .boxcontent p {
+  transition: 0.5s;
+  color: #e6e6e6;
+}
+.card .box .boxcontent a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #e6e6e6;
+  background-color: #ff7f50;
+  border: none;
+  width: 80px;
+  height: 25px;
+  border-radius: 30px;
+}
+
+.all {
+  min-width: 320px;
+  height: 440px;
+}
+.all .boxcontent {
+  margin-top: 100px;
+}
+.all .boxcontent a {
+  margin-top: 80px;
+}
+
+.notall {
+  min-width: 320px;
+  height: 320px;
+}
+.notall .boxcontent {
+  margin-top: 20px;
+}
+.notall .boxcontent a {
+  margin-top: 50px;
+}
+.fifthglance {
+  background-color: #262626;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.fifthglance .main {
+  display: flex;
+  margin-top: 30px;
+  color: #e6e6e6;
+}
+
+.fifthglance form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  z-index: 200;
+  width: 100%;
+}
+
+.fifthglance form input,
+.fifthglance form textarea {
+  width: 80%;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #262626;
+  resize: none;
+  outline: none;
+  color: #e6e6e6;
+  font-size: 20px;
+  align-self: center;
+}
+
+.fifthglance form textarea:focus {
+  height: 100px;
+}
+.fifthglance form textarea::placeholder,
+.fifthglance form input::placeholder {
+  color: rgba(255, 255, 255, 0.384);
+}
+.fifthglance form button {
+  width: 100px;
+  height: 40px;
+  color: #e6e6e6;
+  background-color: #ff7f50;
+  border: none;
+  border-radius: 15px;
+  text-transform: capitalize;
+  font-size: 15px;
+  transition: 0.5s;
+  outline: none;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+.fifthglance form button:hover {
+  width: 115px;
+  height: 42px;
+}
+.fifthglance form h4,
+.fifthglance .contact-content h3 {
+  align-self: center;
+  color: #e6e6e6;
+  font-size: 25px;
+}
+#about-u {
+  color: #e6e6e6;
+}
+.fifthglance .contact-content {
+  flex: 2;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 5px;
+}
+.fifthglance .main span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+.fifthglance .contact-content h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.fifthglance .contact-content .contact-text {
+  padding-left: 5px;
+  margin-right: 10px;
+}
+.fifthglance .contact-content .contact-info {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.social-icons {
+  display: flexbox;
+  margin-top: 30px;
+  align-self: center;
+}
+.social-icons button i{
+  transform: scale(1.5);
+}
+.social-icons button {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #ff7f50;
+  color: #e6e6e6;
+}
+.social-icons button:hover{
+  transform: scale(1.1);
+}
+.c-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.c-box .icon {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.lastglance{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Responsive*/
+@media (max-width: 1000px) {
+  .fourthglance #strong {
+    display: none;
+  }
+  .secondglance .aboutimg {
+    width: 450px;
+    height: 90vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 860px) {
+  .secondglance .hehe {
+    flex-direction: column;
+  }
+  .secondglance .aboutimg {
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 15px;
+  }
+  .fifthglance .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstglance .header .content {
+    position: fixed;
+    height: calc(100vh - 3rem);
+    top: 3rem;
+    left: 0;
+    width: 0%;
+    background: #262626;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+  }
+  .firstglance .header .content > ul {
+    flex-direction: column;
+  }
+  .firstglance .header .content > ul li {
+    margin-top: 35px;
+  }
+  .firstglance .header .content > ul li a {
+    font-size: 25px;
+  }
+  .spacex {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .firstglance i {
+    display: block;
+  }
+  .firstglance .body {
+    margin-top: 13%;
+    text-align: center;
+  }
+  .firstglance .body {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .card {
+    margin-top: 0;
+    width: calc(100% - 50px);
+  }
+  .fifthglance .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .fifthglance .main span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fake-nav{
+    display: block;
+    flex: 3;
+  }
+}
+
+.secondglance {
+  padding-right: 20px;
+}
