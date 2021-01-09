@@ -4,13 +4,11 @@
   box-sizing: 0;
   cursor: pointer;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   background: #e6e6e6;
   overflow-x: hidden;
-  width: 100%;
 }
 .firstglance {
   height: 100vh;
@@ -23,6 +21,7 @@ body {
 .spacex {
   width: 100px;
   display: none;
+  margin-right: 3%;
 }
 
 .firstglance .header {
@@ -50,7 +49,6 @@ body {
   cursor: pointer;
   color: #f1f1f1;
   margin-left: 10px;
-  z-index:2000;
 }
 .firstglance .header .logo:hover {
   color: #ff7f50;
@@ -418,7 +416,7 @@ body {
 
 @media (max-width: 860px) {
   .spacex{
-    margin-right:20px;
+    margin-right: 20px;
   }
   .secondglance .hehe {
     flex-direction: column;
