@@ -415,6 +415,9 @@ body {
 }
 
 @media (max-width: 860px) {
+  .firstglance .header{
+    width: calc(100% - 70px);
+  }
   .spacex{
     margin-right:20px;
   }
