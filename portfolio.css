@@ -500,7 +500,7 @@ body {
     flex: 3;
   }
   .firstglance .header{
-    margin-right: 50px;
+    Width: calc(100% - 50px);
   }
 }
 
