@@ -176,11 +176,9 @@ body {
 }
 #hamburger {
   display: block;
-  transform: scale(1.5);
 }
 #new-hamburger {
   display: none;
-  transform: scale(1.5);
 }
 #hamburger:hover,
 #new-hamburger:hover{
