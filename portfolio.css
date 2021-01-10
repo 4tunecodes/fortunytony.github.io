@@ -499,6 +499,9 @@ body {
     display: block;
     flex: 3;
   }
+  .firstglance .header{
+    margin-right: 50px;
+  }
 }
 
 .secondglance {
